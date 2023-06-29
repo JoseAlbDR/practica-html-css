@@ -1,0 +1,27 @@
+.header {
+  position: sticky;
+  padding: 0.5rem 1rem;
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 999;
+}
+
+.header__logo {
+  width: 5rem;
+}
+
+.header__logo img {
+  color: white;
+  width: 100%;
+}
+
+.header__nav {
+}
+
+.header__nav__list {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
