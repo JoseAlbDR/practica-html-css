@@ -4,24 +4,73 @@
   background-color: var(--primary-color);
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   z-index: 999;
+  top: 0;
 }
 
-.header__logo {
+.header .header__logo {
   width: 5rem;
 }
 
-.header__logo img {
-  color: white;
+.header .header__logo img {
   width: 100%;
 }
 
-.header__nav {
-}
-
-.header__nav__list {
+.header__nav .header__nav__list {
   list-style: none;
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
+}
+
+.header__nav__list__item {
+  position: relative;
+  height: 3rem;
+  width: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  will-change: transform;
+}
+
+.header__nav__list__item::before,
+.header__nav__list__item::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: "";
+  display: block;
+  background-color: #fff;
+  transition: all 250ms ease-in-out;
+}
+
+.header__nav__list__item::after {
+  height: 2px;
+  width: 72px;
+  box-shadow: 0 3rem #fff;
+}
+
+.header__nav__list__item:hover::after {
+  top: -10px;
+  box-shadow: 0 48px #fff;
+}
+
+.header__nav__list__item::before {
+  width: 2px;
+  height: 30px;
+  box-shadow: 7rem 0 #fff;
+}
+
+.header__nav__list__item:hover::before {
+  left: -10px;
+  box-shadow: 90px 0 #fff;
+}
+
+.header__nav__list__item a:link,
+.header__nav__list__item a:visited {
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+  text-decoration: none;
+  transition: all 0.3s;
 }
