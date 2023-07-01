@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="/assets/svg/logo.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,16 +18,23 @@
     <link rel="stylesheet" href="styles/about.css" />
     <link rel="stylesheet" href="styles/skills.css" />
   </head>
-  <body>
+  <body id="top">
     <header class="header">
       <div class="header__logo">
         <a href="#"><img src="./assets/svg/logo.svg" alt="logo" /></a>
       </div>
       <nav class="header__nav">
         <ul class="header__nav__list">
+          <li class="header__nav__list__item header__nav__list__item--menu">
+            <a href="#">Menu</a>
+          </li>
           <li class="header__nav__list__item"><a href="#">Inicio</a></li>
-          <li class="header__nav__list__item"><a href="#">Skills</a></li>
-          <li class="header__nav__list__item"><a href="#">Contacto</a></li>
+          <li class="header__nav__list__item">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="header__nav__list__item">
+            <a href="#">Contacto</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -36,7 +44,7 @@
         <h1>Portfolio J.Alberto Delgado</h1>
       </div>
     </section>
-    <section class="container about">
+    <section id="about" class="container about">
       <div class="about__title">
         <h2>nunca es tarde para descubrir tu pasión</h2>
       </div>
@@ -54,7 +62,7 @@
         <img src="./assets/images/about-img.jpg" alt="about img" />
       </div>
     </section>
-    <section class="skills">
+    <section id="skills" class="skills">
       <div class="container">
         <h2 class="skills__title">Mis skills</h2>
         <ul class="skills__list">
