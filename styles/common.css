@@ -29,7 +29,7 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1;
   font-weight: 400;
-  color: var(--secondary-color);
+  color: var(--primary-grey);
   /* background-color: red; */
   overflow-x: hidden;
 }
