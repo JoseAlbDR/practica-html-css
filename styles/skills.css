@@ -3,6 +3,11 @@
   background-color: var(--secondary-color);
 }
 
+.skills__title {
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+
 .skills__list {
   list-style: none;
   display: flex;
