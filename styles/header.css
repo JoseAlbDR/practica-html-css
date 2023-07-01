@@ -1,10 +1,10 @@
 .header {
   position: sticky;
-  padding: 0.5rem 1rem;
+  padding: 0.5rem 2rem;
   background-color: var(--primary-color);
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
   z-index: 999;
   top: 0;
 }
@@ -32,6 +32,11 @@
   justify-content: center;
   cursor: pointer;
   will-change: transform;
+  display: none;
+}
+
+.header__nav__list__item--menu {
+  display: flex;
 }
 
 .header__nav__list__item::before,
