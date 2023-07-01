@@ -33,3 +33,7 @@ body {
   /* background-color: red; */
   overflow-x: hidden;
 }
+
+.margin--bottom {
+  margin-bottom: 2rem;
+}
