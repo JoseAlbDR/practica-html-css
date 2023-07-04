@@ -8,7 +8,7 @@
   --primary-color: #4263eb;
   --primary-alpha: rgba(66, 100, 235, 0.95);
   --secondary-color: #edf2ff;
-  --secondary-color-alpha: rgba(145, 167, 255, 0.7);
+  --secondary-color-alpha: rgba(145, 167, 255, 0.9);
   --primary-grey: #495057;
   --primary-grey-alpha: #495057f8;
   --secondary-grey: #e9ecef;
@@ -51,4 +51,25 @@ p {
   max-width: 768px;
   margin: 0 auto;
   padding: 2rem 0;
+}
+
+.btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color-alpha);
+  color: #fff;
+}
+
+.btn--secondary {
+  background-color: var(--primary-grey);
+}
+
+.btn--secondary:hover {
+  background-color: grey;
 }
