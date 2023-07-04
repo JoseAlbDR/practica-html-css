@@ -7,6 +7,7 @@
   justify-content: space-between;
   z-index: 999;
   top: 0;
+  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
 }
 
 .header .header__logo {
