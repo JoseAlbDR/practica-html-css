@@ -1,0 +1,23 @@
+.footer {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.footer .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer__social__icons {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+
+.footer__social__icons img {
+  height: 24px;
+  width: 24px;
+  filter: invert() sepia() saturate(0%) hue-rotate(106deg) brightness(105%)
+    contrast(103%);
+}
