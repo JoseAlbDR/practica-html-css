@@ -93,5 +93,130 @@
         </ul>
       </div>
     </section>
+    <section class="container">
+      <form class="form" method="post" action="/">
+        <div class="form__element">
+          <label class="form__label" for="name">Nombre</label>
+          <input
+            class="form__input"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Tu Nombre"
+          />
+        </div>
+        <div class="form__element">
+          <label class="form__label" for="lastName">Apellidos</label>
+          <input
+            class="form__input"
+            type="text"
+            name="lastName"
+            id="lastName"
+            placeholder="Tus Apellidos"
+            required
+          />
+        </div>
+        <div class="form__element">
+          <label class="form__label" for="phone">Teléfono</label>
+          <input
+            class="form__input"
+            type="tel"
+            name="phone"
+            id="phone"
+            min="0"
+            pattern="[0-9]{9}"
+            placeholder="Tu teléfono (666666666)"
+            required
+          />
+        </div>
+        <div class="form__element">
+          <label class="form__label" for="github">Tag Github</label>
+          <input
+            class="form__input"
+            type="text"
+            name="github"
+            id="github"
+            pattern="^@[^/s]"
+            placeholder="Formato @<username>"
+          />
+        </div>
+        <fieldset class="form__element">
+          <legend>¿Dónde me conociste?</legend>
+          <div>
+            <label class="form__label" for="university">Universidad</label>
+            <input
+              class="form__input"
+              type="radio"
+              name="where"
+              id="university"
+              value="uni"
+              required
+              checked
+            />
+          </div>
+          <div>
+            <label class="form__label" for="keepcoding"
+              >Keepcoding kick-off</label
+            >
+            <input
+              class="form__input"
+              type="radio"
+              name="where"
+              id="keepcoding"
+              value="kc"
+              required
+            />
+          </div>
+          <div class="form__element">
+            <label class="form__label" for="schooll">Colegio</label>
+            <input
+              class="form__input"
+              type="radio"
+              name="where"
+              id="school"
+              value="sc"
+              required
+            />
+          </div>
+          <div class="form__element">
+            <label for="github">En Github</label>
+            <input
+              class="form__input"
+              type="radio"
+              name="where"
+              id="github"
+              value="gh"
+            />
+          </div>
+        </fieldset>
+        <div class="form__element">
+          <label class="form__label" for="moreinfo">Más información</label>
+          <textarea
+            class="form__input"
+            name="moreinfo"
+            id="moreinfo"
+            maxlength="180"
+            placeholder="Cuéntame algo más"
+            required
+          ></textarea>
+        </div>
+        <div class="form__element">
+          <input
+            class="form__input"
+            type="checkbox"
+            name="news"
+            id="news"
+            checked
+          />
+          <label class="form__label" for="news"
+            >Subscribirme a la Newsletter</label
+          >
+        </div>
+      </form>
+      <div>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+        <button type="reset" class="btn btn-secondary">Cancelar</button>
+      </div>
+    </section>
   </body>
 </html>
