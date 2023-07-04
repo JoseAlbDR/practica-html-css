@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="styles/banner.css" />
     <link rel="stylesheet" href="styles/about.css" />
     <link rel="stylesheet" href="styles/skills.css" />
+    <link rel="stylesheet" href="styles/form.css" />
   </head>
   <body id="top">
     <header class="header">
@@ -103,6 +104,7 @@
             name="name"
             id="name"
             placeholder="Tu Nombre"
+            required
           />
         </div>
         <div class="form__element">
@@ -130,7 +132,7 @@
           />
         </div>
         <div class="form__element">
-          <label class="form__label" for="github">Tag Github</label>
+          <label for="github">Tag Github</label>
           <input
             class="form__input"
             type="text"
@@ -140,10 +142,10 @@
             placeholder="Formato @<username>"
           />
         </div>
-        <fieldset class="form__element">
-          <legend>¿Dónde me conociste?</legend>
+        <div class="form__element">
+          <h3>¿Dónde me conociste?</h3>
           <div>
-            <label class="form__label" for="university">Universidad</label>
+            <label for="university">Universidad</label>
             <input
               class="form__input"
               type="radio"
@@ -155,9 +157,7 @@
             />
           </div>
           <div>
-            <label class="form__label" for="keepcoding"
-              >Keepcoding kick-off</label
-            >
+            <label for="keepcoding">Keepcoding kick-off</label>
             <input
               class="form__input"
               type="radio"
@@ -167,8 +167,8 @@
               required
             />
           </div>
-          <div class="form__element">
-            <label class="form__label" for="schooll">Colegio</label>
+          <div>
+            <label for="schooll">Colegio</label>
             <input
               class="form__input"
               type="radio"
@@ -178,7 +178,7 @@
               required
             />
           </div>
-          <div class="form__element">
+          <div>
             <label for="github">En Github</label>
             <input
               class="form__input"
@@ -188,7 +188,7 @@
               value="gh"
             />
           </div>
-        </fieldset>
+        </div>
         <div class="form__element">
           <label class="form__label" for="moreinfo">Más información</label>
           <textarea
@@ -200,7 +200,7 @@
             required
           ></textarea>
         </div>
-        <div class="form__element">
+        <div class="form__element form__element--checkbox">
           <input
             class="form__input"
             type="checkbox"
@@ -212,11 +212,11 @@
             >Subscribirme a la Newsletter</label
           >
         </div>
+        <div>
+          <button type="submit" class="btn">Enviar</button>
+          <button type="reset" class="btn btn--secondary">Cancelar</button>
+        </div>
       </form>
-      <div>
-        <button type="submit" class="btn btn-primary">Enviar</button>
-        <button type="reset" class="btn btn-secondary">Cancelar</button>
-      </div>
     </section>
   </body>
 </html>
