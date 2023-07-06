@@ -118,4 +118,5 @@ p {
 .bg--gradient {
   background: linear-gradient(-45deg, #1864ab, #228be6, #228be6, #1864ab);
   background-size: 100% 100%;
+  opacity: 0.9;
 }
