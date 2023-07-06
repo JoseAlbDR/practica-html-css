@@ -93,7 +93,7 @@ p {
   background-color: grey;
 }
 
-.background--animation {
+.bg--animation {
   background: linear-gradient(-45deg, #1c7ed6, #4dabf7, #4dabf7, #1c7ed6);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
@@ -111,7 +111,7 @@ p {
   }
 }
 
-.background--gradient {
+.bg--gradient {
   background: linear-gradient(-45deg, #1864ab, #228be6, #228be6, #1864ab);
   background-size: 100% 100%;
 }
