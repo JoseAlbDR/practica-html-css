@@ -1,13 +1,12 @@
 .header {
   position: sticky;
   padding: 0.5rem 2rem;
-  background-color: var(--primary-color);
   display: flex;
   align-items: center;
   justify-content: space-between;
   z-index: 999;
   top: 0;
-  box-shadow: 0 1.2rem 3.2rem rgba(0, 0, 0, 0.03);
+  box-shadow: 0 2px 2px -2px rgba(0, 0, 0, 0.2);
 }
 
 .header .header__logo {

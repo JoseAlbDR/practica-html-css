@@ -1,6 +1,6 @@
 .skills {
   width: 100%;
-  background-color: var(--secondary-color);
+  position: relative;
 }
 
 .skills__title {
