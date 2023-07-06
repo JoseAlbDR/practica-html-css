@@ -3,6 +3,11 @@
   position: relative;
 }
 
+.skills--container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 .skills__title {
   margin-bottom: 1rem;
   text-transform: uppercase;
@@ -19,15 +24,60 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  position: relative;
 }
 
 .skills__item img {
   height: 30px;
   width: 30px;
   margin-right: 1rem;
+  position: relative;
 }
 
-.skills__item progress {
-  height: 2rem;
+.skills__item .progress--front,
+.skills__item .progress--back {
+  height: 2.5rem;
+}
+
+.progress--front {
+  position: absolute;
+  left: 5%;
+  z-index: 1;
+  animation: progress 3s linear;
+}
+
+.progress--front.html {
+  width: 90%;
+}
+
+.progress--front.css {
+  width: 75%;
+}
+
+.progress--front.js {
+  width: 85%;
+}
+
+.progress--front.ts {
+  width: 15%;
+}
+
+.progress--front.react {
+  width: 70%;
+}
+
+.progress--front.node {
+  width: 50%;
+}
+
+.progress--back {
+  z-index: -1;
+  accent-color: #fff;
   width: 100%;
+}
+
+@keyframes progress {
+  from {
+    width: 0;
+  }
 }
