@@ -74,10 +74,17 @@
   z-index: -1;
   accent-color: #fff;
   width: 100%;
+  margin-left: 1rem;
 }
 
 @keyframes progress {
   from {
     width: 0;
+  }
+}
+
+@media (width <= 425px) {
+  .progress--front {
+    left: 11%;
   }
 }
