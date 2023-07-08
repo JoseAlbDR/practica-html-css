@@ -13,10 +13,19 @@
   text-transform: uppercase;
 }
 
+.flex--skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .skills__list {
   list-style: none;
   display: flex;
   flex-direction: column;
+  width: 100%;
+  max-width: 390px;
   gap: 1rem;
 }
 
@@ -30,61 +39,73 @@
 .skills__item img {
   height: 30px;
   width: 30px;
-  margin-right: 1rem;
+  margin-right: 0.5rem;
   position: relative;
 }
 
-.skills__item .progress--front,
-.skills__item .progress--back {
-  height: 2.5rem;
-}
-
-.progress--front {
-  position: absolute;
-  left: 5%;
-  z-index: 1;
-  animation: progress 3s linear;
-}
-
-.progress--front.html {
-  width: 90%;
-}
-
-.progress--front.css {
-  width: 75%;
-}
-
-.progress--front.js {
-  width: 85%;
-}
-
-.progress--front.ts {
-  width: 15%;
-}
-
-.progress--front.react {
-  width: 70%;
-}
-
-.progress--front.node {
-  width: 50%;
-}
-
-.progress--back {
-  z-index: -1;
-  accent-color: #fff;
+.progress--container {
   width: 100%;
-  margin-left: 1rem;
+  text-align: center;
 }
 
-@keyframes progress {
-  from {
-    width: 0;
+.progress2 {
+  padding: 6px;
+  border-radius: 30px;
+  background: rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.25),
+    0 1px rgba(255, 255, 255, 0.08);
+}
+
+.progress-bar2 {
+  height: 18px;
+  border-radius: 30px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.3),
+    rgba(255, 255, 255, 0.05)
+  );
+  transition: 0.4s linear;
+  transition-property: width, background-color;
+}
+
+.progress-html .progress-bar2 {
+  max-width: 90%;
+  background-color: #4263eb;
+  animation: progressAnimation 6s;
+}
+.progress-css .progress-bar2 {
+  max-width: 75%;
+  background-color: #4263eb;
+  animation: progressAnimation 6s;
+}
+.progress-js .progress-bar2 {
+  max-width: 80%;
+  background-color: #4263eb;
+  animation: progressAnimation 6s;
+}
+.progress-ts .progress-bar2 {
+  max-width: 15%;
+  background-color: #4263eb;
+  animation: progressAnimation 6s;
+}
+.progress-node .progress-bar2 {
+  max-width: 60%;
+  background-color: #4263eb;
+  animation: progressAnimation 6s;
+}
+.progress-react .progress-bar2 {
+  max-width: 70%;
+  background-color: #4263eb;
+  animation: progressAnimation 6s;
+}
+
+@keyframes progressAnimation {
+  0% {
+    width: 5%;
+    background-color: #f9bcca;
   }
-}
-
-@media (width <= 425px) {
-  .progress--front {
-    left: 11%;
+  100% {
+    width: 100%;
+    background-color: #4263eb;
   }
 }
