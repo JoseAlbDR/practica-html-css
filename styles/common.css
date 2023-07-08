@@ -97,7 +97,7 @@ p {
 }
 
 .bg--animation {
-  background: linear-gradient(-45deg, #1c7ed6, #4dabf7, #4dabf7, #1c7ed6);
+  background: linear-gradient(-45deg, #80dfe1, #4dabf7, #4dabf7, #80dfe1);
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
 }
@@ -115,7 +115,17 @@ p {
 }
 
 .bg--gradient {
-  background: linear-gradient(-45deg, #1864ab, #228be6, #228be6, #1864ab);
+  background: linear-gradient(-45deg, #80dfe1, #228be6, #228be6, #80dfe1);
   background-size: 100% 100%;
   opacity: 0.9;
+}
+
+@media (min-width: 1024px) {
+  .bg--fixed {
+    background-image: linear-gradient(
+        rgba(36, 42, 46, 0.6),
+        rgba(36, 42, 46, 0.6)
+      ),
+      url("../assets/images/matrix-bg.jpg");
+  }
 }
