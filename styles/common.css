@@ -23,7 +23,6 @@
 html {
   font-size: 62.5%;
   overflow-x: hidden;
-  scroll-behavior: smooth;
 }
 
 body {
@@ -40,15 +39,15 @@ body {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 6rem;
 }
 
 h2 {
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
 p {
-  font-size: 1.7rem;
+  font-size: 2rem;
 }
 
 .container {
