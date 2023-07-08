@@ -109,3 +109,9 @@
 .hidden--item {
   display: none;
 }
+
+@media (min-width: 1024px) {
+  .hidden--item {
+    display: flex;
+  }
+}
