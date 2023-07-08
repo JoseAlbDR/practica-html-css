@@ -52,7 +52,7 @@ p {
 
 .container {
   width: 90%;
-  max-width: 768px;
+  max-width: 1024px;
   margin: 0 auto;
   padding: 2rem 0;
 }
