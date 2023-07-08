@@ -23,6 +23,7 @@ textarea.form__input {
 }
 
 .form__label {
+  font-size: 2rem;
   font-weight: 700;
 }
 
