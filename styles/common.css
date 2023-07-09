@@ -137,4 +137,9 @@ p {
   h2 {
     font-size: 6.5rem;
   }
+  .btn {
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 3rem;
+  }
 }
