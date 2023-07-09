@@ -21,3 +21,13 @@
   filter: invert() sepia() saturate(0%) hue-rotate(106deg) brightness(105%)
     contrast(103%);
 }
+
+@media (min-width: 2560px) {
+  .footer__social__icons img {
+    height: 48px;
+    width: 48px;
+  }
+  .footer p {
+    font-size: 4rem;
+  }
+}
