@@ -1,0 +1,51 @@
+.projects {
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+
+.project {
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+  margin-bottom: 20px;
+}
+
+.project:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.project__content {
+  padding: 2rem 3rem;
+}
+
+.project__content__title {
+  font-size: 2.4rem;
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.project__content__techs {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+  margin-bottom: 10px;
+}
+
+.project__content__description {
+  font-size: 2rem;
+}
+
+.tech img {
+  height: 30px;
+  width: 30px;
+}
+
+.project__img {
+  width: 100%;
+}
