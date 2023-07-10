@@ -146,3 +146,13 @@ p {
     max-width: 1400px;
   }
 }
+
+.error-page {
+  position: relative;
+}
+
+.not-found {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+}

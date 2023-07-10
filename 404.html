@@ -20,7 +20,11 @@
   </head>
   <body id="top">
     <blz-showcase class="error-page" variant="top-background"
-      ><video
+      ><div class="not-found">
+        <h1>404 - PAGE NOT FOUND</h1>
+        <p>We’ve dispatched a rescue murloc to guide you back to safety.</p>
+      </div>
+      <video
         class="background-video background-active"
         autoplay=""
         muted=""
@@ -44,21 +48,6 @@
         src="https://bnetcmsus-a.akamaihd.net/cms/gallery/yw/YWFDIDFNTB4K1496179710633.jpg"
         bp="+xs"
       ></blz-image
-      ><blz-header slot="header" layout="center" has-description=""
-        ><h2 class="blz-heading" slot="heading">404 - PAGE NOT FOUND</h2>
-        <p slot="description">
-          We’ve dispatched a rescue murloc to guide you back to safety.
-        </p></blz-header
-      ><blz-button-group slot="cta" size="medium"
-        ><blz-button
-          href="/"
-          label="Home"
-          type="primary"
-          size="medium"
-          listening=""
-          >Mmmrrgmgrrrgmmll!</blz-button
-        ></blz-button-group
-      ></blz-showcase
-    >
+    ></blz-showcase>
   </body>
 </html>
