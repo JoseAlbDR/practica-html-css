@@ -5,6 +5,7 @@
   max-height: 650px;
   max-width: 1024px;
   margin: 0 auto;
+  margin-top: 80px;
 }
 
 .video iframe {

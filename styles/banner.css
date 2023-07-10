@@ -6,6 +6,7 @@
   align-items: center;
   justify-content: center;
   margin-bottom: 2rem;
+  margin-top: 65.5px;
 }
 
 .banner__info {
@@ -18,5 +19,11 @@
 @media (min-width: 768px) {
   h1 {
     font-size: 6rem;
+  }
+}
+
+@media (min-width: 2560px) {
+  .banner {
+    margin-top: 145.5px;
   }
 }
