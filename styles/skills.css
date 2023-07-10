@@ -67,43 +67,43 @@
 
 .progress--html .progress--bar {
   max-width: 90%;
-  background-color: #4263eb;
+  background-color: var(--primary-dark-color);
   animation: progressAnimation 6s;
 }
 .progress--css .progress--bar {
   max-width: 75%;
-  background-color: #4263eb;
+  background-color: var(--primary-dark-color);
   animation: progressAnimation 6s;
 }
 .progress--js .progress--bar {
   max-width: 80%;
-  background-color: #4263eb;
+  background-color: var(--primary-dark-color);
   animation: progressAnimation 6s;
 }
 .progress--ts .progress--bar {
-  max-width: 15%;
-  background-color: #4263eb;
+  max-width: 40%;
+  background-color: var(--primary-dark-color);
   animation: progressAnimation 6s;
 }
 .progress--node .progress--bar {
   max-width: 60%;
-  background-color: #4263eb;
+  background-color: var(--primary-dark-color);
   animation: progressAnimation 6s;
 }
 .progress--react .progress--bar {
   max-width: 70%;
-  background-color: #4263eb;
+  background-color: var(--primary-dark-color);
   animation: progressAnimation 6s;
 }
 
 @keyframes progressAnimation {
   0% {
     width: 5%;
-    background-color: #f9bcca;
+    background-color: var(--progress-start-color);
   }
   100% {
     width: 100%;
-    background-color: #4263eb;
+    background-color: var(--primary-dark-color);
   }
 }
 
