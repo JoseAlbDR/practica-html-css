@@ -54,7 +54,6 @@
   align-items: center;
   justify-content: center;
   position: relative;
-  color: #0087ca;
 }
 
 .hover-underline-animation::after {
@@ -79,7 +78,7 @@
 .header__nav__list__item a:link,
 .header__nav__list__item a:visited {
   font-size: 1.7rem;
-  color: var(--secondary-color);
+  color: #fff;
   text-decoration: none;
 }
 
