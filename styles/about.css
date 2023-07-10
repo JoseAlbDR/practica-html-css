@@ -20,11 +20,13 @@
 }
 
 .about__image {
-  height: 50vh;
+  max-height: 350px;
+  max-width: 350px;
 }
 
 .about__image img {
   height: 100%;
+  width: 100%;
   border-radius: 10px;
 }
 
