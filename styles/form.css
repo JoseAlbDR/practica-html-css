@@ -54,9 +54,6 @@ textarea.form__input {
 }
 
 @media (min-width: 2560px) {
-  .container {
-    max-width: 1400px;
-  }
   .form__label {
     font-size: 4rem;
   }

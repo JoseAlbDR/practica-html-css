@@ -142,4 +142,7 @@ p {
     border-radius: 10px;
     font-size: 3rem;
   }
+  .container {
+    max-width: 1400px;
+  }
 }

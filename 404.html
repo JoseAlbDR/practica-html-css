@@ -19,24 +19,46 @@
     <link rel="stylesheet" href="styles/skills.css" />
   </head>
   <body id="top">
-    <header class="header">
-      <div class="header__logo">
-        <a href="#"><img src="./assets/svg/logo.svg" alt="logo" /></a>
-      </div>
-      <nav class="header__nav">
-        <ul class="header__nav__list">
-          <li class="header__nav__list__item header__nav__list__item--menu">
-            <a href="#">Menu</a>
-          </li>
-          <li class="header__nav__list__item"><a href="#">Inicio</a></li>
-          <li class="header__nav__list__item">
-            <a href="#skills">Skills</a>
-          </li>
-          <li class="header__nav__list__item">
-            <a href="#">Contacto</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
+    <blz-showcase class="error-page" variant="top-background"
+      ><video
+        class="background-video background-active"
+        autoplay=""
+        muted=""
+        loop=""
+        slot="background"
+        poster="https://bnetcmsus-a.akamaihd.net/cms/gallery/yw/YWFDIDFNTB4K1496179710633.jpg"
+        bp="sm+"
+      >
+        <source
+          src="https://bnetcmsus-a.akamaihd.net/cms/gallery/c6/C6KLQ8BWWSKR1496179646097.webm"
+          type="video/webm"
+        />
+        <source
+          src="https://bnetcmsus-a.akamaihd.net/cms/gallery/kr/KRYSJPOOWXX51496179560105.mp4"
+          type="video/mp4"
+        /></video
+      ><blz-image
+        class="background-image"
+        slot="background"
+        aspect-ratio="16:9"
+        src="https://bnetcmsus-a.akamaihd.net/cms/gallery/yw/YWFDIDFNTB4K1496179710633.jpg"
+        bp="+xs"
+      ></blz-image
+      ><blz-header slot="header" layout="center" has-description=""
+        ><h2 class="blz-heading" slot="heading">404 - PAGE NOT FOUND</h2>
+        <p slot="description">
+          We’ve dispatched a rescue murloc to guide you back to safety.
+        </p></blz-header
+      ><blz-button-group slot="cta" size="medium"
+        ><blz-button
+          href="/"
+          label="Home"
+          type="primary"
+          size="medium"
+          listening=""
+          >Mmmrrgmgrrrgmmll!</blz-button
+        ></blz-button-group
+      ></blz-showcase
+    >
   </body>
 </html>
