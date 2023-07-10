@@ -89,6 +89,9 @@
   .hidden--item {
     display: flex;
   }
+  .header__nav__list__item a[href="/index.html"] {
+    display: none;
+  }
 }
 
 @media (min-width: 2560px) {
