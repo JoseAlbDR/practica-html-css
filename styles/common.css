@@ -5,13 +5,14 @@
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
 
 :root {
-  --primary-color: #4263eb;
-  --primary-alpha: rgba(66, 100, 235, 0.95);
-  --secondary-color: #edf2ff;
-  --secondary-color-alpha: rgba(145, 167, 255, 0.9);
+  --primary-dark-color: #4263eb;
+  --primary-color: #4dabf7;
+  --primary-dark-color: #228be6;
+  --secondary-color: #80dfe1;
+  --primary-text-color: #edf2ff;
   --primary-grey: #495057;
-  --primary-grey-alpha: #495057f8;
-  --secondary-grey: #e9ecef;
+  --secondary-grey: #a5a8aa;
+  --progress-start-color: #f9bcca;
 }
 
 * {
@@ -22,6 +23,7 @@
 
 html {
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -29,9 +31,8 @@ body {
   font-family: "Roboto", sans-serif;
   line-height: 1.3;
   font-weight: 400;
-  color: #fff;
+  color: var(--primary-text-color);
   font-size: 1.5rem;
-  scroll-behavior: smooth;
 }
 
 h1 {
@@ -39,11 +40,12 @@ h1 {
 }
 
 h2 {
+  text-transform: uppercase;
   font-size: 3rem;
 }
 
 p {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
 }
 
 a {
@@ -78,8 +80,8 @@ a {
 
 .btn {
   background-color: var(--primary-color);
-  color: #fff;
-  border: none;
+  color: var(--secondary-color);
+  border: 1px solid var(--primary-dark-color);
   padding: 10px 15px;
   border-radius: 5px;
   cursor: pointer;
@@ -90,8 +92,8 @@ a {
 }
 
 .btn:hover {
-  background-color: #fff;
-  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  color: var(--primary-dark-color);
   transform: translateY(-5px);
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
 }
@@ -106,11 +108,18 @@ a {
 }
 
 .btn--secondary:hover {
-  background-color: grey;
+  background-color: var(--secondary-grey);
+  color: var(--primary-text-color);
 }
 
 .bg--animation {
-  background: linear-gradient(-45deg, #80dfe1, #4dabf7, #4dabf7, #80dfe1);
+  background: linear-gradient(
+    -45deg,
+    var(--secondary-color),
+    var(--primary-color),
+    var(--primary-color),
+    var(--secondary-color)
+  );
   background-size: 400% 400%;
   animation: gradient 10s ease infinite;
 }
@@ -128,7 +137,13 @@ a {
 }
 
 .bg--gradient {
-  background: linear-gradient(-45deg, #80dfe1, #228be6, #228be6, #80dfe1);
+  background: linear-gradient(
+    -45deg,
+    var(--secondary-color),
+    var(--primary-dark-color),
+    var(--primary-dark-color),
+    var(--secondary-color)
+  );
   background-size: 100% 100%;
   opacity: 0.9;
 }
