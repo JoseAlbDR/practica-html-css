@@ -1,0 +1,27 @@
+.error-page {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found {
+  z-index: 999;
+  position: absolute;
+  left: 10%;
+  top: 50%;
+  text-align: center;
+}
+
+.not-found h1 {
+  font-size: 4vw;
+}
+
+.not-found p {
+  font-size: 3vw;
+}
+
+.background-video {
+  width: 100%;
+}

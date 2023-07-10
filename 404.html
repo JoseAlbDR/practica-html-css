@@ -14,22 +14,54 @@
     <link rel="stylesheet" href="styles/normalize.css" />
     <link rel="stylesheet" href="styles/common.css" />
     <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/banner.css" />
-    <link rel="stylesheet" href="styles/about.css" />
-    <link rel="stylesheet" href="styles/skills.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/404.css" />
   </head>
-  <body id="top">
-    <section class="error-page" variant="top-background"></section>
+  <body class="error-page-body" id="top">
+    <header class="header bg--gradient">
+      <div class="header__items">
+        <div class="header__logo">
+          <a href="#"><img src="./assets/svg/logo.svg" alt="logo" /></a>
+        </div>
+        <nav class="header__nav">
+          <ul class="header__nav__list">
+            <li class="header__nav__list__item hover-underline-animation">
+              <a href="/index.html">Menu</a>
+            </li>
+            <li
+              class="header__nav__list__item hover-underline-animation hidden--item"
+            >
+              <a href="#top">Inicio</a>
+            </li>
+            <li
+              class="header__nav__list__item hover-underline-animation hidden--item"
+            >
+              <a href="#skills">Skills</a>
+            </li>
+            <li
+              class="header__nav__list__item hover-underline-animation hidden--item"
+            >
+              <a href="#contact">Contacto</a>
+            </li>
+            <li
+              class="header__nav__list__item hover-underline-animation hidden--item"
+            >
+              <a href="./portfolio.html">Portfolio</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section class="error-page" variant="top-background">
       <div class="not-found">
         <h1>404 - PAGE NOT FOUND</h1>
         <p>We’ve dispatched a rescue murloc to guide you back to safety.</p>
       </div>
       <video
-        class="background-video background-active"
+        class="background-video"
         autoplay=""
         muted=""
         loop=""
-        slot="background"
         poster="https://bnetcmsus-a.akamaihd.net/cms/gallery/yw/YWFDIDFNTB4K1496179710633.jpg"
         bp="sm+"
       >
@@ -40,8 +72,21 @@
         <source
           src="https://bnetcmsus-a.akamaihd.net/cms/gallery/kr/KRYSJPOOWXX51496179560105.mp4"
           type="video/mp4"
-        /></video
-      >
+        />
+      </video>
     </section>
+    <footer class="footer bg--gradient">
+      <div class="container">
+        <div class="footer__social">
+          <ul class="footer__social__icons">
+            <li><img src="./assets/icons/linkedin.svg" alt="linkedin" /></li>
+            <li><img src="./assets/icons/github.svg" alt="github" /></li>
+          </ul>
+        </div>
+        <div class="footer__copy">
+          <p>&copy;J.Alberto Delgado</p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
