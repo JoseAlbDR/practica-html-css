@@ -121,6 +121,12 @@ a {
   opacity: 0.9;
 }
 
+@media (max-width: 768px) {
+  .bg--animation {
+    animation: none;
+  }
+}
+
 @media (min-width: 1024px) {
   .bg--fixed {
     background-image: linear-gradient(
