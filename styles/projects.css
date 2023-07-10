@@ -2,7 +2,16 @@
   width: 90%;
   margin: 0 auto;
   max-width: 1024px;
-  padding: 15px 0;
+}
+
+.projects h2 {
+  margin-bottom: 2rem;
+}
+
+.projects--layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .project {
@@ -11,7 +20,8 @@
   overflow: hidden;
   transition: all 0.4s;
   margin-bottom: 20px;
-  max-width: 400px;
+  max-width: 350px;
+  width: 260px;
 }
 
 .project:hover {
@@ -54,4 +64,18 @@
 
 .project__img {
   width: 100%;
+}
+
+@media (min-width: 768px) {
+  .projects--layout {
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .projects--layout {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
