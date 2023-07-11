@@ -10,17 +10,18 @@
 .not-found {
   z-index: 999;
   position: absolute;
-  left: 10%;
+  left: 15%;
   top: 50%;
   text-align: center;
 }
 
 .not-found h1 {
-  font-size: 4vw;
+  font-size: 3vw;
 }
 
 .not-found p {
-  font-size: 3vw;
+  font-size: 2vw;
+  padding-bottom: 1.5rem;
 }
 
 .background-video {
