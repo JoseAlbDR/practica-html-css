@@ -21,7 +21,11 @@
 
 .not-found p {
   font-size: 2vw;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1vw;
+}
+
+.not-found a {
+  font-size: 2vw;
 }
 
 .background-video {
