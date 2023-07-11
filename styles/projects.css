@@ -22,7 +22,16 @@
   margin-bottom: 20px;
   max-width: 350px;
   width: 260px;
+  min-height: 470px;
   background-color: var(--primary-dark-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project img {
+  height: 190px;
+  width: 260px;
 }
 
 .project:hover {
