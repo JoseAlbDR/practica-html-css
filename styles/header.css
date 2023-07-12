@@ -5,6 +5,7 @@
   top: 0;
   right: 0;
   left: 0;
+  height: 75px;
   box-shadow: 0 3px 10px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -14,6 +15,7 @@
   justify-content: space-between;
   max-width: 1080px;
   margin: 0 auto;
+  height: 100%;
 }
 
 .heacer__nav {
@@ -21,7 +23,7 @@
 }
 
 .header .header__logo {
-  width: 15rem;
+  width: 20rem;
 }
 
 .header .header__logo img {
