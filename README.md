@@ -7,18 +7,18 @@ Sitio web personal llamado "Portfolio JADR". El proyecto utiliza HTML y CSS para
 El proyecto sigue la siguiente estructura de directorios:
 
 ```
-├── assets                
-|   ├── icons
-|   ├── images
-|   |   ├── main
-|   |   ├── projects
-|   |   ├── skills
-|   ├── svg                   
-|   ├── videos                    
-|   ├── styles                   
-├── 404.html
-├── index.html
-├── portfolio.html
+├── assets                  # Carpeta contenedora de los recursos de la Web
+|   ├── icons               # Contiene los iconos como el favicon o los iconos de las redes sociales
+|   ├── images              # Carpeta contenedora de las imagenes usadas en la web
+|   |   ├── main            # Contiene Imágenes de la página pricipal
+|   |   ├── projects        # Contiene Imágenes de los proyectos
+|   |   ├── skills          # Contiene Archivos svg de las tecnologías que aperecn en el apartado skills
+|   ├── svg                 # Contiene Archivos svg relacionados con el logo del sitio 
+|   ├── videos              # Contiene un Archivo mp4 con el video que se muestra en la página portfolio.html      
+|   ├── styles              # Contiene los archivos .css de estilos     
+├── 404.html                # Página de error
+├── index.html              # Página principal
+├── portfolio.html          # Página donde se encuentran los proyectos
 ```
 
 La carpeta assets contiene los archivos CSS, imágenes, íconos, archivos SVG y videos utilizados en el proyecto. El archivo index.html representa la página principal del sitio web, mientras que portfolio.html muestra una sección de proyectos. Además, se ha creado una página de error 404 llamada 404.html para las páginas no encontradas.
