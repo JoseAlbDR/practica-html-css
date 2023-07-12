@@ -6,7 +6,7 @@
   margin-bottom: 10rem;
   width: 90%;
   margin: 0 auto;
-  max-width: 1024px;
+  max-width: 1080px;
 }
 
 .about__content {
@@ -49,11 +49,11 @@
   }
 }
 
-@media (min-width: 2560px) {
+/* @media (min-width: 2560px) {
   .about {
     max-width: 1400px;
   }
   p {
     font-size: 3rem;
   }
-}
+} */

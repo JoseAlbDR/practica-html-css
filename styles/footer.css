@@ -22,7 +22,7 @@
     contrast(103%);
 }
 
-@media (min-width: 2560px) {
+/* @media (min-width: 2560px) {
   .footer {
     padding: 20px 40px;
   }
@@ -33,4 +33,4 @@
   .footer p {
     font-size: 4rem;
   }
-}
+} */

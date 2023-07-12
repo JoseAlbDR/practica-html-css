@@ -53,13 +53,12 @@ textarea.form__input {
   }
 }
 
-@media (min-width: 2560px) {
+/* @media (min-width: 2560px) {
   .form__label {
     font-size: 4rem;
   }
   .form__input {
     padding: 10px 20px;
-    /* border-radius: 5px; */
   }
 
   .form__input::placeholder {
@@ -79,4 +78,4 @@ textarea.form__input {
   .form__label--radio {
     font-size: 3rem;
   }
-}
+} */

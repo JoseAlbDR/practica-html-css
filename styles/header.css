@@ -12,7 +12,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1024px;
+  max-width: 1080px;
   margin: 0 auto;
 }
 
@@ -95,7 +95,7 @@
   }
 }
 
-@media (min-width: 2560px) {
+/* @media (min-width: 2560px) {
   .header {
     padding: 2rem 10rem;
   }
@@ -124,4 +124,4 @@
   .header__nav__list__item a:visited {
     font-size: 3rem;
   }
-}
+} */
