@@ -1,6 +1,4 @@
 .skills {
-  width: 100%;
-  position: relative;
   margin-top: 20px;
   padding: 100px 0px;
 }
@@ -38,7 +36,6 @@
   height: 30px;
   width: 30px;
   margin-right: 0.5rem;
-  position: relative;
 }
 
 .progress--container {
