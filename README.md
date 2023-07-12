@@ -9,18 +9,18 @@ El diseño de la página cambia en distintas resoluciones adaptándose al ancho 
 El proyecto sigue la siguiente estructura de directorios:
 
 ```
-├── assets                  # Carpeta contenedora de los recursos de la Web
-|   ├── icons               # Contiene los iconos como el favicon o los iconos de las redes sociales
-|   ├── images              # Carpeta contenedora de las imagenes usadas en la web
-|   |   ├── main            # Contiene Imágenes de la página pricipal
-|   |   ├── projects        # Contiene Imágenes de los proyectos
-|   |   ├── skills          # Contiene Archivos svg de las tecnologías que aperecn en el apartado skills
-|   ├── svg                 # Contiene Archivos svg relacionados con el logo del sitio 
-|   ├── videos              # Contiene un Archivo mp4 con el video que se muestra en la página portfolio.html      
-|   ├── styles              # Contiene los archivos .css de estilos     
-├── 404.html                # Página de error
-├── index.html              # Página principal
-├── portfolio.html          # Página donde se encuentran los proyectos
+├── assets                  📁 Carpeta contenedora de los recursos de la Web
+|   ├── icons               📁 Contiene los iconos como el favicon o los iconos de las redes sociales
+|   ├── images              📁 Carpeta contenedora de las imágenes usadas en la web
+|   |   ├── main            📁 Contiene Imágenes de la página principal
+|   |   ├── projects        📁 Contiene Imágenes de los proyectos
+|   |   ├── skills          📁 Contiene Archivos svg de las tecnologías que aparecen en el apartado skills
+|   ├── svg                 📁 Contiene Archivos svg relacionados con el logo del sitio 
+|   ├── videos              📁 Contiene un Archivo mp4 con el video que se muestra en la página portfolio.html      
+|   ├── styles              📁 Contiene los archivos .css de estilos     
+├── 404.html                📄 Página de error
+├── index.html              📄 Página principal
+├── portfolio.html          📄 Página donde se encuentran los proyectos
 ```
 
 La carpeta assets contiene los archivos CSS, imágenes, íconos, archivos SVG y videos utilizados en el proyecto. El archivo index.html representa la página principal del sitio web, mientras que portfolio.html muestra una sección de proyectos. Además, se ha creado una página de error 404 llamada 404.html para las páginas no encontradas.
@@ -31,15 +31,15 @@ Puedes ver una versión en vivo del proyecto en la siguiente [dirección](https:
 
 Para hospedar la página he utilizado un servicio de máquina virtual en la nube de vultr con un sistema operativo Ubuntu 22.04 x64 y un servidor nginx para responder a las peticiones HTTPS. Para la navegación segura HTTPS he utilizado un certificado SSL/TSL emitido por Let's Encrypt y administrado por Certbot.
 
-El dominio jadero.dev apunta con un registro DNS A a la ip del servidor y el subdominio www.jadero.dev apunta con un registro DNS CNAME a jadero.dev.
+El dominio `jadero.dev` apunta con un registro DNS A a la ip del servidor y el subdominio `www.jadero.dev` apunta con un registro DNS CNAME a `jadero.dev`.
 
-Cuando se intenta navegar una página que no existe el servidor redirige directamente a la página 404.html
+Cuando se intenta navegar una página que no existe el servidor redirige directamente a la página `404.html`
 
 ## Funcionalidades
 
 Este sitio web tiene las siguientes funcionalidades:
 
-### En index.html
+### En `index.html`
 
 - Navegación: barra de navegación que permite al usuario acceder a diferentes secciones del sitio web, como el inicio, habilidades, contacto y a la página portfolio.
 
@@ -53,7 +53,7 @@ Este sitio web tiene las siguientes funcionalidades:
 
 - Sección de contacto: Esta sección incluye un formulario de contacto con campos para nombre, apellidos, teléfono, etiqueta de GitHub, lugar de conocimiento, información adicional y opción de suscripción a la newsletter.
 
-### En portfolio.html
+### En `portfolio.html`
 
 - Navegación: barra de navegación que permite al usuario acceder a diferentes secciones de la página principal index, como el inicio, habilidades, contacto y sección de proyectos de la página portfolio.
 
