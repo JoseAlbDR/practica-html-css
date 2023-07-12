@@ -5,21 +5,31 @@ Sitio web personal llamado "Portfolio JADR". El proyecto utiliza HTML y CSS para
 ### Estructura de directorios
 
 El proyecto sigue la siguiente estructura de directorios:
-
-- assets/
-  - icons/
-  - images/
-    - main/
-    - projects/
-    - skills/
-  - svg/
-  - videos/
-  - styles/
-- 404.html
-- index.html
-- portfolio.html
+.
+├── assets                
+|   ├── icons
+|   ├── images
+|   |   ├── main
+|   |   ├── projects
+|   |   ├── skills
+|   ├── svg                   
+|   ├── videos                    
+|   ├── styles                   
+├── 404.html
+├── index.html
+├── portfolio.html
 
 La carpeta assets contiene los archivos CSS, imágenes, íconos, archivos SVG y videos utilizados en el proyecto. El archivo index.html representa la página principal del sitio web, mientras que portfolio.html muestra una sección de proyectos. Además, se ha creado una página de error 404 llamada 404.html para las páginas no encontradas.
+
+## Proyecto en vivo
+
+Puedes ver una versión en vivo del proyecto en la siguiente [dirección](https://www.jadero.dev/)
+
+Para hospedar la página he utilizado un servicio de máquina virtual en la nube de vultr con un sistema operativo Ubuntu 22.04 x64 y un servidor nginx para responder a las peticiones HTTPS. Para la navegación segura HTTPS he utilizado un certificado SSL/TSL emitido por Let's Encrypt y administrado por Certbot.
+
+El dominio jadero.dev apunta con un registro DNS A a la ip del servidor y el subdominio www.jadero.dev apunta con un registro DNS CNAME a jadero.dev.
+
+Cuando se intenta navegar una página que no existe el servidor redirige directamente a la página 404.html
 
 ## Funcionalidades
 
