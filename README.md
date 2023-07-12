@@ -2,6 +2,8 @@
 
 Sitio web personal llamado "Portfolio JADR". El proyecto utiliza HTML y CSS para crear una interfaz visualmente atractiva y responsive.
 
+El diseño de la página cambia en distintas resoluciones adaptándose al ancho del dispositivo donde se está viendo, segun la resolución hay cambios en la imágen de fondo o en los items del menú.
+
 ### Estructura de directorios
 
 El proyecto sigue la siguiente estructura de directorios:
@@ -39,7 +41,7 @@ Este sitio web tiene las siguientes funcionalidades:
 
 ### En index.html
 
-- Navegación: barra de navegación que permite al usuario acceder a diferentes secciones del sitio web, como el inicio, habilidades, contacto y portfolio.
+- Navegación: barra de navegación que permite al usuario acceder a diferentes secciones del sitio web, como el inicio, habilidades, contacto y a la página portfolio.
 
 - Sección del encabezado: La sección del encabezado muestra el logotipo del sitio web y el menú de navegación.
 
@@ -52,6 +54,8 @@ Este sitio web tiene las siguientes funcionalidades:
 - Sección de contacto: Esta sección incluye un formulario de contacto con campos para nombre, apellidos, teléfono, etiqueta de GitHub, lugar de conocimiento, información adicional y opción de suscripción a la newsletter.
 
 ### En portfolio.html
+
+- Navegación: barra de navegación que permite al usuario acceder a diferentes secciones de la página principal index, como el inicio, habilidades, contacto y sección de proyectos de la página portfolio.
 
 - Sección de video: En esta sección se reproduce un video automatica mente al entrar en la página, el video tiene una animación fadeIn, es un video en el que se ve el formato responsive de la página en diferentes resoluciones.
 
