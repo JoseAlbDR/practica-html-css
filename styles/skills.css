@@ -25,6 +25,9 @@
   margin: 0 auto;
   max-width: 1080px;
   gap: 2rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  border-radius: 15px;
 }
 
 .skills__item {
@@ -35,8 +38,8 @@
 }
 
 .skills__item img {
-  height: 30px;
-  width: 30px;
+  height: 45px;
+  width: 45px;
   margin-right: 0.5rem;
   position: relative;
 }
