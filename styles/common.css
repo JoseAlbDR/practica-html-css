@@ -65,7 +65,7 @@ a {
       rgba(36, 42, 46, 0.6),
       rgba(36, 42, 46, 0.6)
     ),
-    url("../assets/images/mobile-banner.jpg");
+    url("../assets/images/mobile-bg.jpg");
   background-size: cover;
   background-attachment: fixed;
   background-position: center;
@@ -162,7 +162,7 @@ a {
         rgba(36, 42, 46, 0.6),
         rgba(36, 42, 46, 0.6)
       ),
-      url("../assets/images/matrix-bg.jpg");
+      url("../assets/images/desktop-bg.jpg");
   }
 }
 /* 
