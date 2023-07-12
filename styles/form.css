@@ -13,6 +13,10 @@
   gap: 10px;
 }
 
+.form--radio {
+  margin-left: 10px;
+}
+
 .form__input {
   padding: 5px 10px;
   /* border-radius: 5px; */
