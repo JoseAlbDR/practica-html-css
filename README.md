@@ -1,3 +1,9 @@
+# jadero.dev
+
+<p align="center">
+  <img src="https://github.com/JoseAlbDR/practica-html-css/blob/main/assets/svg/background-logo.svg" alt="jadero Logo">
+</p>
+
 ## Proyecto de HTML y CSS - Documentación
 
 Sitio web personal llamado "Portfolio JADR". El proyecto utiliza HTML y CSS para crear una interfaz visualmente atractiva y responsive.
@@ -11,12 +17,12 @@ El proyecto sigue la siguiente estructura de directorios:
 ```
 ├── assets                  📁 Carpeta contenedora de los recursos de la Web
 |   ├── icons               📁 Contiene los iconos como el favicon o los iconos de las redes sociales
-|   ├── images              📁 Carpeta contenedora de las imágenes usadas en la web
+|   ├── images              📁 Carpeta contenedora de las imágenes usadas
 |   |   ├── main            📁 Contiene Imágenes de la página principal
 |   |   ├── projects        📁 Contiene Imágenes de los proyectos
 |   |   ├── skills          📁 Contiene Archivos svg de las tecnologías que aparecen en el apartado skills
 |   ├── svg                 📁 Contiene Archivos svg relacionados con el logo del sitio 
-|   ├── videos              📁 Contiene un Archivo mp4 con el video que se muestra en la página portfolio.html      
+|   ├── videos              📁 Contiene Videos mp4 mostrando la funcionalidad de la Web     
 |   ├── styles              📁 Contiene los archivos .css de estilos     
 ├── 404.html                📄 Página de error
 ├── index.html              📄 Página principal
