@@ -101,10 +101,13 @@
         <p>
           ¡Hola! Soy J. Alberto Delgado, un estudiante principiante de
           desarrollo web. Mi pasión es resolver problemas a través de la
-          programación. Actualmente, me encuentro en un bootcamp de desarrollo
-          web full stack, ampliando mis habilidades en front-end y back-end. Mi
-          meta es crecer como profesional en el desarrollo web y aportar mi
-          conocimiento a proyectos futuros.
+          programación.
+        </p>
+        <p>
+          Actualmente, me encuentro en un bootcamp de desarrollo web full stack,
+          ampliando mis habilidades en front-end y back-end. Mi meta es crecer
+          como profesional en el desarrollo web y aportar mi conocimiento a
+          proyectos futuros.
         </p>
       </div>
       <div class="about__image">
@@ -199,26 +202,28 @@
           />
         </div>
         <div class="form__element">
-          <label class="form__label" for="phone">Teléfono</label>
+          <label class="form__label" for="phone">Teléfono (XXX-XXX-XXX)</label>
           <input
             class="form__input"
             type="tel"
             name="phone"
             id="phone"
-            pattern="[0-9]{9}"
-            placeholder="Tu teléfono (666666666)"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}"
+            placeholder="Tu teléfono (666-666-666)"
             required
           />
         </div>
         <div class="form__element">
-          <label class="form__label" for="github-tag">Tag Github</label>
+          <label class="form__label" for="github-tag"
+            >Tag Github (@usuario)</label
+          >
           <input
             class="form__input"
             type="text"
             name="github"
             id="github-tag"
             pattern="^@[^\s]+"
-            placeholder="Formato @<username>"
+            placeholder="Formato @usuario"
           />
         </div>
         <div class="form__element known">
