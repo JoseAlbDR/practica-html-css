@@ -79,19 +79,18 @@ a {
 
 .top {
   --offset: 50px;
-
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.15);
   position: sticky;
-  bottom: 20px;
-  margin-right: 10px;
+  bottom: 15%;
+  left: 96%;
   place-self: end;
   margin-top: calc(100vh + var(--offset));
-
   /* visual styling */
   text-decoration: none;
-  padding: 10px;
+  padding: 10px 15px;
   font-family: sans-serif;
   color: #fff;
-  background: #000;
+  background: var(--primary-color);
   border-radius: 100px;
   white-space: nowrap;
 }
