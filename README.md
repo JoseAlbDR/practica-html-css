@@ -25,6 +25,12 @@ El proyecto sigue la siguiente estructura de directorios:
 
 La carpeta assets contiene los archivos CSS, imágenes, íconos, archivos SVG y videos utilizados en el proyecto. El archivo index.html representa la página principal del sitio web, mientras que portfolio.html muestra una sección de proyectos. Además, se ha creado una página de error 404 llamada 404.html para las páginas no encontradas.
 
+## Demo Video Responsively
+
+Video donde se puede ver el funcionamiento y comportamiento de la página en distintas resoluciones.
+
+https://github.com/JoseAlbDR/practica-html-css/assets/128265706/48403e02-7799-4f1b-8941-6792547ad25b
+
 ## Proyecto en vivo
 
 Puedes ver una versión en vivo del proyecto en la siguiente [dirección](https://www.jadero.dev/)
@@ -64,7 +70,11 @@ Este sitio web tiene las siguientes funcionalidades:
 ### Común
 
 - Pie de página: El sitio web tiene un pie de página con enlaces a mis redes sociales y derechos de autor.
+  
+### Menú Burguer en Resoluciones hasta 768px
 
+- Menú Burguer: En resoluciones con un ancho menor a 768px el menú en línea se oculta y aparece un menú burguer hecho solo con HTML y CSS, al pulsar en el menú se muestra un desplegable con los diferentes elementos del menú, al volver a pulsar el menú se oculta. Idea original de este [Codepen](https://codepen.io/alvarotrigo/pen/MWEJEWG)
+  
 ## Guía de uso
 
 Para utilizar el proyecto "Portfolio JADR", sigue estos pasos:
