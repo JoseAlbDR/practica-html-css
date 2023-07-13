@@ -4,7 +4,7 @@
   <img src="https://github.com/JoseAlbDR/practica-html-css/blob/main/assets/svg/background-logo.svg" alt="jadero Logo">
 </p>
 
-## Proyecto de HTML y CSS - Documentación
+## Práctica de HTML y CSS - Documentación
 
 Sitio web personal llamado "Portfolio JADR". El proyecto utiliza HTML y CSS para crear una interfaz visualmente atractiva y responsive.
 
