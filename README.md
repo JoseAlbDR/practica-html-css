@@ -63,7 +63,7 @@ Este sitio web tiene las siguientes funcionalidades:
 
 - Sección de habilidades: Aquí se muestran mis habilidades, representadas por iconos y barras de progreso.
 
-- Sección de contacto: Esta sección incluye un formulario de contacto con campos para nombre, apellidos, teléfono, etiqueta de GitHub, donde me conociste, información adicional y opción de suscripción a la newsletter.
+- Sección de contacto: Esta sección incluye un formulario de contacto con campos para nombre, apellidos, teléfono, etiqueta de GitHub, donde me conociste, información adicional y opción de suscripción a la newsletter. El submit del formulario sigue un method post y el action redirecciona a una página donde se da un mensaje de verificación de envio. Hay varios tipos de validación, en algunos campos hay que seguir un formato concreto (el formato a seguir se muestra en el placeholder), mientras que otros campos son campos requeridos. 
 
 ### En `portfolio.html`
 
@@ -79,7 +79,7 @@ Este sitio web tiene las siguientes funcionalidades:
   
 ### Menú Burguer en Resoluciones hasta 768px
 
-- Menú Burguer: En resoluciones con un ancho menor a 768px el menú en línea se oculta y aparece un menú burguer hecho solo con HTML y CSS, al pulsar en el menú se muestra un desplegable con los diferentes elementos del menú, al volver a pulsar el menú se oculta. Idea original de este [Codepen](https://codepen.io/alvarotrigo/pen/MWEJEWG)
+- Menú Burguer: En resoluciones con un ancho menor a 768px el menú en línea se oculta y aparece un menú burguer hecho solo con HTML y CSS, al pulsar en el menú se muestra un desplegable con los diferentes elementos del menú, al volver a pulsar el menú se oculta. Idea original de este [Codepen](https://codepen.io/alvarotrigo/pen/MWEJEWG).
   
 ## Guía de uso
 
@@ -91,9 +91,9 @@ Para utilizar el proyecto "Portfolio JADR", sigue estos pasos:
 
 3. Utiliza la barra de navegación para moverte entre las diferentes secciones del sitio web.
 
-4. Explora la sección "Acerca de mí" para conocer más sobre el autor y sus habilidades.
+4. Explora la sección "Acerca de mí" para conocer más sobre mí y mis habilidades.
 
-5. En la sección de contacto, completa el formulario con tu nombre, apellidos, teléfono, etiqueta de GitHub, lugar de conocimiento y otra información adicional. Puedes seleccionar la opción de suscripción a la newsletter si lo deseas.
+5. En la sección de contacto, completa el formulario con tu nombre, apellidos, teléfono, etiqueta de GitHub, donde me conociste y otra información adicional. Puedes seleccionar la opción de suscripción a la newsletter si lo deseas.
 
 6. En la sección de proyectos, verás diferentes proyectos del autor. Haz clic en los enlaces de GitHub y versiones en vivo para obtener más información sobre cada proyecto.
 
