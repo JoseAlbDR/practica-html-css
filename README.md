@@ -47,6 +47,8 @@ El dominio `jadero.dev` apunta con un registro DNS A a la ip del servidor y el s
 
 Cuando se intenta navegar una página que no existe el servidor redirige directamente a la página `404.html`
 
+Como no podemos manejar el envio de datos a través del formulario al enviar el formulario el servidor nginx redireccionará el error 405 que se produce a la página 'formsubmit.html'. Esto se consigue añadiendo la linea 'error_page  405     =200 $uri;' al archivo de configuración del sitio en cuestión.
+
 ## Funcionalidades
 
 Este sitio web tiene las siguientes funcionalidades:
@@ -80,6 +82,10 @@ Este sitio web tiene las siguientes funcionalidades:
 ### Menú Burguer en Resoluciones hasta 768px
 
 - Menú Burguer: En resoluciones con un ancho menor a 768px el menú en línea se oculta y aparece un menú burguer hecho solo con HTML y CSS, al pulsar en el menú se muestra un desplegable con los diferentes elementos del menú, al volver a pulsar el menú se oculta. Idea original de este [Codepen](https://codepen.io/alvarotrigo/pen/MWEJEWG).
+
+### Enviar formulario
+
+- Al enviar un formulario se redireccionará a la página 'formsubmit.html' donde se mostrará un mensaje de éxito.
   
 ## Guía de uso
 
