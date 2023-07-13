@@ -21,9 +21,9 @@
   overflow: hidden;
   transition: all 0.5s;
   margin-bottom: 20px;
-  max-width: 350px;
-  width: 260px;
-  min-height: 470px;
+  /* max-width: 300px; */
+  width: 300px;
+  min-height: 615px;
   background-color: var(--primary-dark-color);
   display: flex;
   flex-direction: column;
@@ -32,12 +32,7 @@
 
 .project img {
   height: 190px;
-  width: 260px;
-}
-
-.project:hover {
-  transform: translateY(-1.2rem);
-  box-shadow: 0 0 1.5rem 0.5rem rgba(0, 0, 0, 0.15);
+  width: 100%;
 }
 
 .project__content {
@@ -66,6 +61,20 @@
 
 .project__links {
   padding: 10px 20px;
+}
+
+.project__links a.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.project__links img {
+  width: 15px;
+  height: 15px;
+  filter: invert() sepia() saturate(0%) hue-rotate(106deg) brightness(105%)
+    contrast(103%);
 }
 
 .tech img {
