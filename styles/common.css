@@ -24,7 +24,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  /* overflow: hidden; */
+  overflow-x: hidden;
 }
 
 body {
@@ -34,7 +34,6 @@ body {
   font-weight: 400;
   color: var(--primary-text-color);
   font-size: 1.5rem;
-  overflow: auto;
 }
 
 h1 {
