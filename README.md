@@ -1,4 +1,10 @@
-## Proyecto de HTML y CSS - Documentación
+# jadero.dev
+
+<p align="center">
+  <img src="https://github.com/JoseAlbDR/practica-html-css/blob/main/assets/svg/background-logo.svg" alt="jadero Logo">
+</p>
+
+## Práctica de HTML y CSS - Documentación
 
 Sitio web personal llamado "Portfolio JADR". El proyecto utiliza HTML y CSS para crear una interfaz visualmente atractiva y responsive.
 
@@ -11,12 +17,12 @@ El proyecto sigue la siguiente estructura de directorios:
 ```
 ├── assets                  📁 Carpeta contenedora de los recursos de la Web
 |   ├── icons               📁 Contiene los iconos como el favicon o los iconos de las redes sociales
-|   ├── images              📁 Carpeta contenedora de las imágenes usadas en la web
+|   ├── images              📁 Carpeta contenedora de las imágenes usadas
 |   |   ├── main            📁 Contiene Imágenes de la página principal
 |   |   ├── projects        📁 Contiene Imágenes de los proyectos
 |   |   ├── skills          📁 Contiene Archivos svg de las tecnologías que aparecen en el apartado skills
 |   ├── svg                 📁 Contiene Archivos svg relacionados con el logo del sitio 
-|   ├── videos              📁 Contiene un Archivo mp4 con el video que se muestra en la página portfolio.html      
+|   ├── videos              📁 Contiene Videos mp4 mostrando la funcionalidad de la Web     
 |   ├── styles              📁 Contiene los archivos .css de estilos     
 ├── 404.html                📄 Página de error
 ├── index.html              📄 Página principal
@@ -24,6 +30,12 @@ El proyecto sigue la siguiente estructura de directorios:
 ```
 
 La carpeta assets contiene los archivos CSS, imágenes, íconos, archivos SVG y videos utilizados en el proyecto. El archivo index.html representa la página principal del sitio web, mientras que portfolio.html muestra una sección de proyectos. Además, se ha creado una página de error 404 llamada 404.html para las páginas no encontradas.
+
+## Demo Video Responsively
+
+Video donde se puede ver el funcionamiento y comportamiento de la página en distintas resoluciones.
+
+https://github.com/JoseAlbDR/practica-html-css/assets/128265706/48403e02-7799-4f1b-8941-6792547ad25b
 
 ## Proyecto en vivo
 
@@ -51,7 +63,7 @@ Este sitio web tiene las siguientes funcionalidades:
 
 - Sección de habilidades: Aquí se muestran mis habilidades, representadas por iconos y barras de progreso.
 
-- Sección de contacto: Esta sección incluye un formulario de contacto con campos para nombre, apellidos, teléfono, etiqueta de GitHub, lugar de conocimiento, información adicional y opción de suscripción a la newsletter.
+- Sección de contacto: Esta sección incluye un formulario de contacto con campos para nombre, apellidos, teléfono, etiqueta de GitHub, donde me conociste, información adicional y opción de suscripción a la newsletter. El submit del formulario sigue un method post y el action redirecciona a una página donde se da un mensaje de verificación de envio. Hay varios tipos de validación, en algunos campos hay que seguir un formato concreto (el formato a seguir se muestra en el placeholder), mientras que otros campos son campos requeridos. 
 
 ### En `portfolio.html`
 
@@ -59,12 +71,16 @@ Este sitio web tiene las siguientes funcionalidades:
 
 - Sección de video: En esta sección se reproduce un video automatica mente al entrar en la página, el video tiene una animación fadeIn, es un video en el que se ve el formato responsive de la página en diferentes resoluciones.
 
-- Sección de proyectos: En esta sección se presentan diferentes proyectos del autor, mostrando una imagen, descripción, tecnologías utilizadas y enlaces a GitHub y versiones en vivo de los proyectos.
+- Sección de proyectos: En esta sección se presentan diferentes proyectos realizados, mostrando una imagen, descripción, tecnologías utilizadas y enlaces a GitHub y versiones en vivo de los proyectos.
 
 ### Común
 
 - Pie de página: El sitio web tiene un pie de página con enlaces a mis redes sociales y derechos de autor.
+  
+### Menú Burguer en Resoluciones hasta 768px
 
+- Menú Burguer: En resoluciones con un ancho menor a 768px el menú en línea se oculta y aparece un menú burguer hecho solo con HTML y CSS, al pulsar en el menú se muestra un desplegable con los diferentes elementos del menú, al volver a pulsar el menú se oculta. Idea original de este [Codepen](https://codepen.io/alvarotrigo/pen/MWEJEWG).
+  
 ## Guía de uso
 
 Para utilizar el proyecto "Portfolio JADR", sigue estos pasos:
@@ -75,9 +91,9 @@ Para utilizar el proyecto "Portfolio JADR", sigue estos pasos:
 
 3. Utiliza la barra de navegación para moverte entre las diferentes secciones del sitio web.
 
-4. Explora la sección "Acerca de mí" para conocer más sobre el autor y sus habilidades.
+4. Explora la sección "Acerca de mí" para conocer más sobre mí y mis habilidades.
 
-5. En la sección de contacto, completa el formulario con tu nombre, apellidos, teléfono, etiqueta de GitHub, lugar de conocimiento y otra información adicional. Puedes seleccionar la opción de suscripción a la newsletter si lo deseas.
+5. En la sección de contacto, completa el formulario con tu nombre, apellidos, teléfono, etiqueta de GitHub, donde me conociste y otra información adicional. Puedes seleccionar la opción de suscripción a la newsletter si lo deseas.
 
 6. En la sección de proyectos, verás diferentes proyectos del autor. Haz clic en los enlaces de GitHub y versiones en vivo para obtener más información sobre cada proyecto.
 
