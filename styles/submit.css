@@ -16,5 +16,9 @@
 }
 
 button.btn.back--btn {
-  background-color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+button.btn.back--btn a {
+  color: #fff;
 }
