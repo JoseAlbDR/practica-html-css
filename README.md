@@ -71,7 +71,7 @@ Este sitio web tiene las siguientes funcionalidades:
 
 - Sección de video: En esta sección se reproduce un video automatica mente al entrar en la página, el video tiene una animación fadeIn, es un video en el que se ve el formato responsive de la página en diferentes resoluciones.
 
-- Sección de proyectos: En esta sección se presentan diferentes proyectos del autor, mostrando una imagen, descripción, tecnologías utilizadas y enlaces a GitHub y versiones en vivo de los proyectos.
+- Sección de proyectos: En esta sección se presentan diferentes proyectos realizados, mostrando una imagen, descripción, tecnologías utilizadas y enlaces a GitHub y versiones en vivo de los proyectos.
 
 ### Común
 
