@@ -47,7 +47,7 @@ El dominio `jadero.dev` apunta con un registro DNS A a la ip del servidor y el s
 
 Cuando se intenta navegar una página que no existe el servidor redirige directamente a la página `404.html`
 
-Como no podemos manejar el envio de datos a través del formulario al enviar el formulario el servidor nginx redireccionará el error 405 que se produce a la página `formsubmit.html`. Esto se consigue añadiendo la linea `error_page  405     =200 $uri;` al archivo de configuración del sitio en cuestión.
+Como no podemos manejar el envio de datos a través del formulario al enviar el formulario el servidor nginx redireccionará el error 405 que se produce a la página `formsubmit.html`. Esto se consigue añadiendo la linea `error_page  405     =200 $uri;` al archivo de configuración del sitio en cuestión, para que el servidor redireccione a la página que tenga la URL en el momento de producirse el error.
 
 ## Funcionalidades
 
