@@ -5,9 +5,9 @@
 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128 */
 
 :root {
-  --primary-color: #4dabf7;
-  --primary-dark-color: #228be6;
-  --secondary-color: #80dfe1;
+  --primary-color: #3b5bdb;
+  --primary-dark-color: #364fc7;
+  --secondary-color: #4dabf7;
   --primary-text-color: #edf2ff;
   --primary-grey: #495057;
   --secondary-grey: #a5a8aa;
@@ -23,6 +23,7 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  height: 100%;
 }
 
 body {
@@ -41,6 +42,12 @@ h1 {
 h2 {
   text-transform: uppercase;
   font-size: 3rem;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  width: 90%;
+  max-width: 1080px;
+  text-align: center;
+  border-bottom: 1px solid #fff;
 }
 
 p {
@@ -113,7 +120,7 @@ a {
   color: var(--primary-text-color);
 }
 
-.bg--animation {
+/* .bg--animation {
   background: linear-gradient(
     -45deg,
     var(--secondary-color),
@@ -121,22 +128,24 @@ a {
     var(--primary-color),
     var(--secondary-color)
   );
-  background-size: 400% 400%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   opacity: 0.9;
   animation: gradient 10s ease infinite;
 }
 
 @keyframes gradient {
   0% {
-    background-position: 0% 50%;
+    background-position: 0% 25%;
   }
   50% {
-    background-position: 100% 50%;
+    background-position: 100% 25%;
   }
   100% {
-    background-position: 0% 50%;
+    background-position: 0% 25%;
   }
-}
+} */
 
 .bg--gradient {
   background: linear-gradient(
@@ -148,6 +157,8 @@ a {
   );
   background-size: 100% 100%;
   opacity: 0.9;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 @media (max-width: 768px) {
