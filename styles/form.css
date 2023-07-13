@@ -47,6 +47,7 @@ textarea.form__input {
 .form__element.form__element--checkbox {
   flex-direction: row;
   align-items: center;
+  margin-bottom: 25px;
 }
 
 @media (min-width: 1024px) {
