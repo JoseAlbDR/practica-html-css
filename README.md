@@ -63,7 +63,7 @@ Este sitio web tiene las siguientes funcionalidades:
 
 - Sección de habilidades: Aquí se muestran mis habilidades, representadas por iconos y barras de progreso.
 
-- Sección de contacto: Esta sección incluye un formulario de contacto con campos para nombre, apellidos, teléfono, etiqueta de GitHub, lugar de conocimiento, información adicional y opción de suscripción a la newsletter.
+- Sección de contacto: Esta sección incluye un formulario de contacto con campos para nombre, apellidos, teléfono, etiqueta de GitHub, donde me conociste, información adicional y opción de suscripción a la newsletter.
 
 ### En `portfolio.html`
 
