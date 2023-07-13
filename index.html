@@ -49,47 +49,36 @@
     <link rel="stylesheet" href="styles/form.css" />
     <link rel="stylesheet" href="styles/footer.css" />
   </head>
-  <body class="bg--animation" id="top">
+  <body class="bg--body" id="top">
     <header class="header bg--gradient">
-      <div class="header__items">
-        <div class="header__logo">
+      <nav class="header__nav">
+        <div class="header__nav__logo">
           <a href="/index.html"
             ><img src="./assets/svg/logo.svg" alt="logo"
           /></a>
         </div>
-        <nav class="header__nav">
-          <ul class="header__nav__list">
-            <li class="header__nav__list__item hover-underline-animation">
-              <a href="/index.html">Menu</a>
-            </li>
-            <li
-              class="header__nav__list__item hover-underline-animation hidden--item"
-            >
-              <a href="#">Inicio</a>
-            </li>
-            <li
-              class="header__nav__list__item hover-underline-animation hidden--item"
-            >
-              <a href="#about">About</a>
-            </li>
-            <li
-              class="header__nav__list__item hover-underline-animation hidden--item"
-            >
-              <a href="#skills">Skills</a>
-            </li>
-            <li
-              class="header__nav__list__item hover-underline-animation hidden--item"
-            >
-              <a href="#contact">Contacto</a>
-            </li>
-            <li
-              class="header__nav__list__item hover-underline-animation hidden--item"
-            >
-              <a href="./portfolio.html">Portfolio</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
+        <input id="header__nav--toggle" type="checkbox" />
+        <label class="header__nav--button--container" for="header__nav--toggle">
+          <div class="header__nav--button"></div>
+        </label>
+        <ul class="header__nav__list">
+          <li class="header__nav__list__item hover-underline-animation">
+            <a href="#">Inicio</a>
+          </li>
+          <li class="header__nav__list__item hover-underline-animation">
+            <a href="#about">About</a>
+          </li>
+          <li class="header__nav__list__item hover-underline-animation">
+            <a href="#skills">Skills</a>
+          </li>
+          <li class="header__nav__list__item hover-underline-animation">
+            <a href="#contact">Contacto</a>
+          </li>
+          <li class="header__nav__list__item hover-underline-animation">
+            <a href="./portfolio.html">Portfolio</a>
+          </li>
+        </ul>
+      </nav>
     </header>
     <section class="banner">
       <div class="bg--fixed"></div>
@@ -99,7 +88,9 @@
     </section>
     <section id="about" class="about">
       <div class="about__content">
-        <h2>nunca es tarde para descubrir tu pasión</h2>
+        <h2 class="about__content__title">
+          nunca es tarde para descubrir tu pasión
+        </h2>
         <p>
           ¡Hola! Soy J. Alberto Delgado, un estudiante principiante de
           desarrollo web. Mi pasión es resolver problemas a través de la
@@ -169,7 +160,8 @@
         </ul>
       </div>
     </section>
-    <section id="contact" class="container">
+    <section id="contact" class="contact">
+      <h2 class="contact__title">Contacta Conmigo</h2>
       <form class="form" method="post" action="/">
         <div class="form__element">
           <label class="form__label" for="name">Nombre</label>
@@ -297,7 +289,7 @@
       </form>
     </section>
     <footer class="footer bg--gradient">
-      <div class="container">
+      <div class="footer--container">
         <div class="footer__social">
           <ul class="footer__social__icons">
             <li>

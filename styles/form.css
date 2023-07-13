@@ -1,3 +1,14 @@
+.contact {
+  width: 90%;
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 100px 0;
+}
+
+.contact__title {
+  width: 100%;
+}
+
 .form {
   margin: 0 auto;
   padding: 2rem;

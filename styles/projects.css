@@ -2,12 +2,11 @@
   width: 90%;
   margin: 0 auto;
   max-width: 1080px;
-  border-top: 5px solid var(--primary-dark-color);
-  padding-top: 20px;
 }
 
 .projects h2 {
   margin-bottom: 20px;
+  width: 100%;
 }
 
 .projects--layout {
