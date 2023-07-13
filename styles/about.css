@@ -20,6 +20,10 @@
   padding-bottom: 0;
 }
 
+.about__content p {
+  margin-bottom: 20px;
+}
+
 .about__image {
   max-height: 350px;
   max-width: 350px;
