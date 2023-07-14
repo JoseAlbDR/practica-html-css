@@ -24,8 +24,8 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  overflow-x: hidden;
-  overscroll-behavior: none;
+  overscroll-behavior: auto;
+  background-color: var(--primary-dark-color);
 }
 
 body {
