@@ -43,13 +43,13 @@ https://github.com/JoseAlbDR/practica-html-css/assets/128265706/0a87b76e-88a0-46
 
 Puedes ver una versión en vivo del proyecto en la siguiente [dirección](https://www.jadero.dev/)
 
-Para hospedar la página he utilizado un servicio de máquina virtual en la nube de vultr con un sistema operativo Ubuntu 22.04 x64 y un servidor nginx para responder a las peticiones HTTPS. Para la navegación segura HTTPS he utilizado un certificado SSL/TSL emitido por Let's Encrypt y administrado por Certbot.
+Para hospedar la página he utilizado un servicio de máquina virtual en la nube de Heztner con un sistema operativo Ubuntu 22.04 x64 y un servidor nginx para responder a las peticiones HTTPS. Para la navegación segura HTTPS he instalado un certificado SSL/TSL emitido por Let's Encrypt y administrado por Certbot.
 
 El dominio `jadero.dev` apunta con un registro DNS A a la ip del servidor y el subdominio `www.jadero.dev` apunta con un registro DNS CNAME a `jadero.dev`.
 
 Cuando se intenta navegar una página que no existe el servidor redirige directamente a la página `404.html`
 
-Como no podemos manejar el envio de datos a través del formulario al enviar el formulario el servidor nginx redireccionará el error 405 que se produce a la página `formsubmit.html`. Esto se consigue añadiendo la linea `error_page  405     =200 $uri;` al archivo de configuración del sitio en cuestión, para que el servidor redireccione a la página que tenga la URL en el momento de producirse el error.
+Como no podemos manejar el envio de datos a través del formulario al enviar el formulario el servidor nginx redireccionará el error 405 que se produce a la página `formsubmit.html`. 
 
 ## Funcionalidades
 
@@ -80,6 +80,8 @@ Este sitio web tiene las siguientes funcionalidades:
 ### Común
 
 - Pie de página: El sitio web tiene un pie de página con enlaces a mis redes sociales y derechos de autor.
+
+- Un boton ⬆ para volver al inicio de la página.
   
 ### Menú Burguer en Resoluciones hasta 768px
 
@@ -103,13 +105,13 @@ Para utilizar el proyecto "Portfolio JADR", sigue estos pasos:
 
 5. En la sección de contacto, completa el formulario con tu nombre, apellidos, teléfono, etiqueta de GitHub, donde me conociste y otra información adicional. Puedes seleccionar la opción de suscripción a la newsletter si lo deseas.
 
-6. En la sección de proyectos, verás varios demis proyectos ya realizados. Haz clic en los enlaces de GitHub y versiones en vivo para obtener más información sobre cada proyecto.
+6. En la sección de proyectos, verás varios de mis proyectos ya realizados. Haz clic en los enlaces de GitHub y versiones en vivo para obtener más información sobre cada proyecto.
 
 7. Navega hasta la parte inferior del sitio web para encontrar enlaces a mis redes sociales y los derechos de autor.
 
 ## Desarrollo del proyecto
 
-El proyecto "Portfolio JADR" ha sido desarrollado utilizando HTML y CSS. Se han utilizado varias bibliotecas y recursos externos, como Google Fonts, para aplicar estilos y fuentes personalizados al sitio web.
+El proyecto "Portfolio JADR" ha sido desarrollado utilizando HTML y CSS. Se ha utilizado Google Fonts para aplicar una fuente personalizada al sitio web.
 
 El código HTML se ha estructurado utilizando etiquetas semánticas para mejorar la accesibilidad y el SEO del sitio web. Se han utilizado clases y selectores CSS para aplicar estilos a los elementos y crear una apariencia coherente en todo el sitio.
 
