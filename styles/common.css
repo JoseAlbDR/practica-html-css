@@ -63,7 +63,6 @@ a {
 }
 
 .bg--fixed {
-  position: absolute;
   background-image: linear-gradient(
       rgba(36, 42, 46, 0.6),
       rgba(36, 42, 46, 0.6)
@@ -73,10 +72,6 @@ a {
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   z-index: -1;
 }
 
@@ -148,8 +143,12 @@ a {
   );
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  position: fixed;
   opacity: 0.9;
+  z-index: -1;
   /* animation: gradient 10s ease infinite; */
 }
 
