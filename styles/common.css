@@ -61,7 +61,7 @@ a {
   cursor: pointer;
 }
 
-/* .bg--fixed {
+.bg--fixed {
   position: absolute;
   background-image: linear-gradient(
       rgba(36, 42, 46, 0.6),
@@ -77,7 +77,7 @@ a {
   right: 0;
   bottom: 0;
   z-index: -1;
-} */
+}
 
 .top {
   --offset: 50px;
@@ -182,7 +182,7 @@ a {
   }
 }
 
-/* @media (min-width: 1024px) {
+@media (min-width: 1024px) {
   .bg--fixed {
     background-image: linear-gradient(
         rgba(36, 42, 46, 0.6),
@@ -190,7 +190,7 @@ a {
       ),
       url("../assets/images/main/desktop-bg.jpg");
   }
-} */
+}
 /* 
 @media (min-width: 2560px) {
   h1 {
