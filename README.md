@@ -23,7 +23,7 @@ El proyecto sigue la siguiente estructura de directorios:
 |   |   ├── skills          📁 Contiene Archivos svg de las tecnologías que aparecen en el apartado skills
 |   ├── svg                 📁 Contiene Archivos svg relacionados con el logo del sitio 
 |   ├── videos              📁 Contiene Videos mp4 mostrando la funcionalidad de la Web     
-|   ├── styles              📁 Contiene los archivos .css de estilos     
+├── styles                  📁 Contiene los archivos .css de estilos     
 ├── 404.html                📄 Página de error
 ├── index.html              📄 Página principal
 ├── portfolio.html          📄 Página donde se encuentran los proyectos
@@ -35,7 +35,9 @@ La carpeta assets contiene los archivos CSS, imágenes, íconos, archivos SVG y 
 
 Video donde se puede ver el funcionamiento y comportamiento de la página en distintas resoluciones.
 
-https://github.com/JoseAlbDR/practica-html-css/assets/128265706/48403e02-7799-4f1b-8941-6792547ad25b
+
+https://github.com/JoseAlbDR/practica-html-css/assets/128265706/0a87b76e-88a0-468b-9483-604434ed29b6
+
 
 ## Proyecto en vivo
 
