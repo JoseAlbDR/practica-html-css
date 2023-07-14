@@ -24,26 +24,19 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  background: linear-gradient(
-    -45deg,
-    var(--secondary-color),
-    var(--primary-color),
-    var(--primary-color),
-    var(--secondary-color)
-  );
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  opacity: 0.9;
+  overflow: hidden;
+  height: 100%;
 }
 
 body {
-  height: 100vh;
   font-family: "Roboto Slab", serif;
   line-height: 1.4;
   font-weight: 400;
   color: var(--primary-text-color);
   font-size: 1.5rem;
+  overflow: auto;
+  height: 100%;
+  overscroll-behavior: none;
 }
 
 h1 {
