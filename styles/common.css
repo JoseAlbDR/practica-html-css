@@ -76,9 +76,9 @@ a {
     ),
     url("../assets/images/main/mobile-bg.jpg");
   background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
+  /* background-attachment: fixed; */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
   z-index: -1;
 }
 
@@ -155,7 +155,6 @@ a {
   width: 100vw;
   position: fixed;
   opacity: 0.9;
-  z-index: -1;
   /* animation: gradient 10s ease infinite; */
 }
 
