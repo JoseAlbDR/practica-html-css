@@ -103,9 +103,9 @@ Para utilizar el proyecto "Portfolio JADR", sigue estos pasos:
 
 5. En la sección de contacto, completa el formulario con tu nombre, apellidos, teléfono, etiqueta de GitHub, donde me conociste y otra información adicional. Puedes seleccionar la opción de suscripción a la newsletter si lo deseas.
 
-6. En la sección de proyectos, verás diferentes proyectos del autor. Haz clic en los enlaces de GitHub y versiones en vivo para obtener más información sobre cada proyecto.
+6. En la sección de proyectos, verás varios demis proyectos ya realizados. Haz clic en los enlaces de GitHub y versiones en vivo para obtener más información sobre cada proyecto.
 
-7. Navega hasta la parte inferior del sitio web para encontrar enlaces a las redes sociales del autor y los derechos de autor.
+7. Navega hasta la parte inferior del sitio web para encontrar enlaces a mis redes sociales y los derechos de autor.
 
 ## Desarrollo del proyecto
 
