@@ -24,8 +24,17 @@
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
-  overscroll-behavior: auto;
-  background-color: var(--primary-dark-color);
+  background: linear-gradient(
+    -45deg,
+    var(--secondary-color),
+    var(--primary-color),
+    var(--primary-color),
+    var(--secondary-color)
+  );
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  opacity: 0.9;
 }
 
 body {
