@@ -23,7 +23,7 @@ El proyecto sigue la siguiente estructura de directorios:
 |   |   ├── skills          📁 Contiene Archivos svg de las tecnologías que aparecen en el apartado skills
 |   ├── svg                 📁 Contiene Archivos svg relacionados con el logo del sitio 
 |   ├── videos              📁 Contiene Videos mp4 mostrando la funcionalidad de la Web     
-|   ├── styles              📁 Contiene los archivos .css de estilos     
+├── styles                  📁 Contiene los archivos .css de estilos     
 ├── 404.html                📄 Página de error
 ├── index.html              📄 Página principal
 ├── portfolio.html          📄 Página donde se encuentran los proyectos
