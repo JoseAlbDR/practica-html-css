@@ -1,6 +1,6 @@
 # jadero.dev
 
-<a href="https://www.jadero.dev" tarjet="_blank">
+<a href="https://www.jadero.dev" target="_blank">
   <img src="https://github.com/JoseAlbDR/practica-html-css/blob/main/assets/svg/background-logo.svg" alt="jadero Logo">
 </p>
 
