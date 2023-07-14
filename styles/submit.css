@@ -1,9 +1,8 @@
 .message {
   width: 90%;
   max-width: 1080px;
-  margin: 0 auto;
+  margin: 25px auto;
   padding: 100px 0;
-  margin-bottom: 25px;
   text-align: center;
   background-color: var(--success-message);
   opacity: 0.9;
