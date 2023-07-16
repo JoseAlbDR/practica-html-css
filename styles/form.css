@@ -30,8 +30,8 @@
 }
 
 .form__input {
-  padding: 5px 10px;
-  /* border-radius: 5px; */
+  padding: 10px 15px;
+  border-radius: 5px;
 }
 
 textarea.form__input {
