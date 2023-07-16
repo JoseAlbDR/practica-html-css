@@ -124,3 +124,7 @@ El proyecto utiliza imágenes y videos para mejorar la experiencia visual. Se ha
 El proyecto "Portfolio JADR" es un sitio web personal que utiliza HTML y CSS para crear una interfaz atractiva y funcional. El sitio web incluye diferentes secciones, como "Acerca de mí", habilidades, proyectos y contacto. Los usuarios pueden navegar por el sitio web y acceder a la información, así como ver proyectos específicos.
 
 El proyecto demuestra habilidades en el desarrollo web front-end utilizando HTML y CSS, así como la capacidad para crear una estructura de directorios organizada y seguir las mejores prácticas en la creación de sitios web.
+
+## Agradecimientos
+
+Especial agradecimiento a [Juanma Acosta](https://www.linkedin.com/in/juan-manuel-acosta-benitez/) por su feedback de la página, sus indicaciones hicieron que mi página fuera más responsive y sobre todo mucho mejor en temas de accesibilidad.
