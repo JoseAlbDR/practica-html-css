@@ -116,11 +116,6 @@ a {
   text-align: center;
 }
 
-.btn:active {
-  transform: translateY(5px);
-  box-shadow: none;
-}
-
 .btn--secondary {
   background-color: var(--primary-grey);
 }
@@ -178,6 +173,11 @@ a {
     background-color: var(--secondary-color);
     color: #fff;
     transform: translateY(-5px);
-    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 3px 5px rgba(255, 255, 255, 0.2);
+  }
+
+  .btn:active {
+    transform: translateY(3px);
+    box-shadow: none;
   }
 }
